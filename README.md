@@ -4,13 +4,13 @@
 
 In the middle of this lesson's tasks, your responsibilities will pivot. Whomever starts as the driver will switch and become the navigator where the lesson specifies. And vice versa.
 
-Before you start, acquire your designated project repo from the course instructor.
+Before you start, acquire your designated project repo from the course instructor. Verify you haved targeted the correct repo before starting with `Instructions`.
 
 # Creating a webpage with images
 
 ## Objectives
 
-1. Reinforce git commands like `clone`, `add`, `push`, and `branch`
+1. Reinforce git commands like `clone`, `add`, `push`, `status` and `branch`
 1. Reinforce bash commands like `cd`, `pwd`, `mkdir`, and `mv`
 1. Create and merge pull requests in Github
 1. Use html elements like `head`, `body`, `div` and `image`
@@ -52,14 +52,16 @@ So what do we do? We ask permission, or make a `request` to `pull` our new addit
 * If the photos are not named already, name each of these files with the developer's first and last name, for example: "KraigSchwerin.jpg"
 * From your shell, create a new directory called `img`
 * Use the `mv` command to move all 6 photos into this new directory on your branch.
-* Stage these files with `git add`
-* Commit them with `git commit` and a short informative message
+* Stage half of these `img` files with `git add`
+* Use `git status` to see what state you are in. Discuss why you see what you see with your pair. You should see 3 green files and 3 red files. What is the technical term for the green files? What is the technical term for the red files?
+* Finish `git add`ing the remaining files
+* Commit the images with `git commit` and a short informative message
 * Push them up with your new branch with `git push origin developer_images`
 * Create a Pull Request on Github and ask the repo's owner to review the change
 
 ## Switch Drivers
 
-Once the repo owner has merged the `developer_images` PR:
+Request the repo owner to merge the `developer_images` PR. After the repo owner has done so:
 
 * `cd` to your `pairing_projects` directory and verify your location with `pwd`
 * Navigate to the Github repository and fork it into your account
@@ -76,18 +78,18 @@ Once the repo owner has merged the `developer_images` PR:
 
 * Create an `index.html` on root
 * Open your branch in your text editor
-* Create a basic html template in the index.html. This template should include the DOC type, a head, a body, and a title of "Nitro Bootcamp Students"
+* Create a basic html template in the index.html. This template should include the DOC type, a head, a body, and a title of "Code Academy Students"
 * Right click (or control+click) on the index.html in your editor to open the view in your default browser.
 
 ![Open in Browser](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/open-in-browser.png?raw=true "Open in Browser")
 
 A new blank browser view should just have opened. Check to see that your title is showing up in the browser tab:
 
-![Browser Title](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/browser-title.png?raw=true "Browser Title")
+![Browser Title](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/browser-with-title.png?raw=true "Browser Title")
 
 Experiment with adding some content inside the html `body` and refreshing the window.
 
-* Wrap "Nitro Bootcamp Students" in a `h1` element, nested inside the body tag
+* Wrap "Power Code Academy Students" in a `h1` element, nested inside the body tag
 * Add `h2` elements that with each person's name, just like the Markdown README is organized
 
 A very common HTML element is `div` which stands for division. These elements are used to logically group related content in a web view.
@@ -97,11 +99,11 @@ A very common HTML element is `div` which stands for division. These elements ar
 
 Your local browser view should now look like:
 
-![Developer Images](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/developer-images.png?raw=true "Developer Images")
+![Developer Images](https://raw.githubusercontent.com/powerhome/phrg-github-workflow-primer-part-two/master/student-images.png?raw=true "Developer Images")
 
 * Git add, commit, and push your changes
 * Open a PR in Github and include a screenshot of your work in the PR's body. You can drag and drop images directly into the text area where you write your PR description.
 
 It is important to make reviewing Pull Requests as easy for the reviewer as possible. It makes assessing your changes much more understandable.
 
-End this lesson by asking the repo owner to review & merge your work. If you are a repo owner, make sure there is a screen shot of the final product in the PR's body before you accept the changes.
+End this lesson by asking the repo owner to review & merge your work. If you are a repo owner, make sure there is a screen shot of the final product in the PR's body before you accept and merge the PR.
