@@ -53,7 +53,7 @@ So what do we do? We ask permission, or make a `request` to `pull` our new addit
 * From your shell, create a new directory called `img`
 * Use the `mv` command to move all 8 photos into this new directory on your branch.
 * Stage half of these `img` files with `git add`
-* Use `git status` to see what state you are in. Discuss why you see what you see with your pair. You should see 3 green files and 3 red files. What is the technical term for the green files? What is the technical term for the red files?
+* Use `git status` to see what state you are in. Discuss why you see what you see with your pair. You should see 4 green files and 4 red files. What is the technical term for the green files? What is the technical term for the red files?
 * Finish `git add`ing the remaining files
 * Commit the images with `git commit` and a short informative message
 * Push them up with your new branch with `git push origin developer_images`
